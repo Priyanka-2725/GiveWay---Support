@@ -10,6 +10,16 @@
 !.yarn/releases
 !.yarn/versions
 
+# local environment
+.env*
+!.env.example
+*.local
+
+# archives and exported bundles
+*.zip
+*.tar
+*.tgz
+
 # testing
 /coverage
 
@@ -17,12 +27,16 @@
 /.next/
 /out/
 
+# turborepo
+/.turbo/
+
 # production
 /build
 
 # misc
 .DS_Store
 *.pem
+*.log
 
 # debug
 npm-debug.log*
@@ -38,7 +52,6 @@ yarn-error.log*
 next-env.d.ts
 
 .genkit/*
-.env*
 
 # Docker volumes
 docker-data/
