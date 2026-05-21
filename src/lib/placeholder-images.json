@@ -1,0 +1,304 @@
+{
+  "placeholderImages": [
+    {
+      "id": "ngo_001",
+      "description": "Children in a classroom raising their hands.",
+      "imageUrl": "https://images.unsplash.com/photo-1588075592446-265fd1e6e76f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlZHVjYXRpb24lMjBjaGlsZHJlbnxlbnwwfHx8fDE3NzA0OTAwNjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "education children"
+    },
+    {
+      "id": "ngo_002",
+      "description": "Hands planting a small tree.",
+      "imageUrl": "https://images.unsplash.com/photo-1423784346385-c1d4dac9893a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlbnZpcm9ubWVudCUyMHBsYW50aW5nfGVufDB8fHx8MTc3MDQ5MDEwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "environment planting"
+    },
+    {
+      "id": "ngo_003",
+      "description": "Doctor checking a patient in a rural setting.",
+      "imageUrl": "https://images.unsplash.com/photo-1618498082410-b4aa22193b38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGhjYXJlJTIwcnVyYWx8ZW58MHx8fHwxNzcwNDkwMTQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "healthcare rural"
+    },
+    {
+      "id": "ngo_004",
+      "description": "A person petting a rescue dog.",
+      "imageUrl": "https://images.unsplash.com/photo-1548681528-6a5c45b66b42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxBbmltYWwlMjBSZXNjdWV8ZW58MHx8fHwxNzcwNDkwMTgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "animal rescue"
+    },
+    {
+      "id": "ngo_005",
+      "description": "A group of smiling women.",
+      "imageUrl": "https://images.unsplash.com/photo-1619895862022-09114b41f16f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGdyb3VwfGVufDB8fHx8MTc3MDQ5MDIxNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "women empowerment"
+    },
+    {
+      "id": "ngo_006",
+      "description": "Happy Indian children playing together.",
+      "imageUrl": "https://images.unsplash.com/photo-1619248448201-9a74a87604c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBjaGlsZHJlbiUyMHBsYXlpbmd8ZW58MHx8fHwxNzcwNTc4NzU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "children rights"
+    },
+    {
+      "id": "ngo_007",
+      "description": "A smiling child receiving a vaccine.",
+      "imageUrl": "https://images.unsplash.com/photo-1606253401997-e6a6291b423b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBjaGlsZCUyMGhlYWx0aGNhcmV8ZW58MHx8fHwxNzcwNTc4ODIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child healthcare"
+    },
+    {
+      "id": "ngo_008",
+      "description": "Hands holding a heart shape over a map of India.",
+      "imageUrl": "https://images.unsplash.com/photo-1593113598332-cd288d649433?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYSUyMGNoYXJpdHl8ZW58MHx8fHwxNzcwNTc4ODY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "india charity"
+    },
+    {
+      "id": "ngo_009",
+      "description": "Volunteers distributing relief supplies.",
+      "imageUrl": "https://images.unsplash.com/photo-1614690184738-9526523a19e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkaXNhc3RlciUyMHJlbGllZiUyMGluZGlhfGVufDB8fHx8MTc3MDU3ODkwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "disaster relief"
+    },
+    {
+      "id": "ngo_010",
+      "description": "An elderly person in India smiling warmly.",
+      "imageUrl": "https://images.unsplash.com/photo-1604404770141-71b57685652f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlbGRlcmx5JTIwaW5kaWFuJTIwcGVyc29ufGVufDB8fHx8MTc3MDU3ODk0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "elderly care"
+    },
+    {
+      "id": "ngo_011",
+      "description": "A child in a rural classroom learning to write.",
+      "imageUrl": "https://images.unsplash.com/photo-1576764724643-f6d337f7362a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxydXJhbCUyMGVkdWNhdGlvbiUyMGluZGlhfGVufDB8fHx8MTc3MDU3ODk5NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rural education"
+    },
+    {
+      "id": "ngo_012",
+      "description": "Children enjoying a healthy meal at school.",
+      "imageUrl": "https://images.unsplash.com/photo-1627822613217-a065605d3369?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlsZHJlbiUyMGVhdGluZyUyMG1lYWx8ZW58MHx8fHwxNzcwNTc5MDI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "children meal"
+    },
+    {
+      "id": "ngo_013",
+      "description": "An ophthalmologist performing an eye check-up.",
+      "imageUrl": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlcGUlMjBjYXJlJTIwZXhhbXxlbnwwfHx8fDE3NzA1NzkxMDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "eye care"
+    },
+    {
+      "id": "ngo_014",
+      "description": "A person with disability smiling and looking confident.",
+      "imageUrl": "https://images.unsplash.com/photo-1525450848039-335195486a4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkaXNhYmlsaXR5JTIwc3VwcG9ydCUyMGluZGlhfGVufDB8fHx8MTc3MDU3OTE0NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "disability support"
+    },
+    {
+      "id": "ngo_015",
+      "description": "Community members working together on a project.",
+      "imageUrl": "https://images.unsplash.com/photo-1531206715622-26413b69e9c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb21tdW5pdHklMjBkZXZlbG9wbWVudCUyMGluZGlhfGVufDB8fHx8MTc3MDU3OTIwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "community development"
+    },
+    {
+      "id": "ngo_016",
+      "description": "A child reading a book in a library.",
+      "imageUrl": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlsZCUyMHJlYWRpbmclMjBib29rfGVufDB8fHx8MTc3MDU3OTI0OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child reading"
+    },
+    {
+      "id": "ngo_017",
+      "description": "Teenagers playing sports in a field.",
+      "imageUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx5b3V0aCUyMGRldmVsb3BtZW50JTIwc3BvcnRzfGVufDB8fHx8MTc3MDU3OTI4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "youth development"
+    },
+    {
+      "id": "ngo_018",
+      "description": "A teacher helping a student in a classroom.",
+      "imageUrl": "https://images.unsplash.com/photo-1542844283-4928290f9c22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWFjaGVyJTIwaGVscGluZyUyMHN0dWRlbnR8ZW58MHx8fHwxNzcwNTc5MzIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "teacher student"
+    },
+    {
+      "id": "ngo_019",
+      "description": "A health worker counseling a pregnant woman in a slum.",
+      "imageUrl": "https://images.unsplash.com/photo-1581093414995-1f9f2780f2a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx1cmJhbiUyMHNsdW0lMjBoZWFsdGhjYXJlfGVufDB8fHx8MTc3MDU3OTM1OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "urban healthcare"
+    },
+    {
+      "id": "ngo_020",
+      "description": "Group of happy children in a care home.",
+      "imageUrl": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvcnBoYW5hZ2UlMjBpbmRpYXxlbnwwfHx8fDE3NzA1Nzk0MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "orphanage children"
+    },
+    {
+      "id": "ngo_021",
+      "description": "People protesting for their rights peacefully.",
+      "imageUrl": "https://images.unsplash.com/photo-1581182810446-2419c001ec66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzb2NpYWwlMjBqdXN0aWNlJTIwcHJvdGVzdHxlbnwwfHx8fDE3NzA1Nzk0NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "social justice"
+    },
+    {
+      "id": "ngo_022",
+      "description": "A majestic Bengal tiger in its natural habitat.",
+      "imageUrl": "https://images.unsplash.com/photo-1598918204221-50949d0d3f2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiZW5nYWwlMjB0aWdlcnxlbnwwfHx8fDE3NzA1Nzk0ODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bengal tiger"
+    },
+    {
+      "id": "ngo_023",
+      "description": "A rescued elephant being cared for.",
+      "imageUrl": "https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyZXNjdWVkJTIwZWxlcGhhbnR8ZW58MHx8fHwxNzcwNTc5NTIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rescued elephant"
+    },
+    {
+      "id": "ngo_024",
+      "description": "Waste collectors sorting recyclable materials.",
+      "imageUrl": "https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3YXN0ZSUyMG1hbmFnZW1lbnQlMjBpbmRpYXxlbnwwfHx8fDE3NzA1Nzk1Njd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "waste management"
+    },
+    {
+      "id": "ngo_025",
+      "description": "A group of women in a self-help group meeting.",
+      "imageUrl": "https://images.unsplash.com/photo-1541280910158-c4e142c160a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGVtроd2VybWVudCUyMGluZGlhJTIwZ3JvdXB8ZW58MHx8fHwxNzcwNTc5NjI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "women meeting"
+    },
+    {
+      "id": "ngo_026",
+      "description": "A street child smiling at the camera.",
+      "imageUrl": "https://images.unsplash.com/photo-1601987077677-5346c1e95d6f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdHJlZXQlMjBjaGlsZCUyMGluZGlhJTIwc21pbGluZ3xlbnwwfHx8fDE3NzA1Nzk2NjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "street child"
+    },
+    {
+      "id": "ngo_027",
+      "description": "Children sitting in a circle learning together.",
+      "imageUrl": "https://images.unsplash.com/photo-1517482835038-7a5458765e9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncm91cCUyMGxlYXJuaW5nJTIwY2hpbGRyZW58ZW58MHx8fHwxNzcwNTc5NzAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "group learning"
+    },
+    {
+      "id": "ngo_028",
+      "description": "Volunteers serving food to the needy.",
+      "imageUrl": "https://images.unsplash.com/photo-1599056015041-365555026939?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx2b2x1bnRlZXJzJTIwc2VydmluZyUyMGZvb2R8ZW58MHx8fHwxNzcwNTc5NzM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "serving food"
+    },
+    {
+      "id": "ngo_029",
+      "description": "A veterinarian treating a stray dog.",
+      "imageUrl": "https://images.unsplash.com/photo-1620955982885-e11a19616d10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx2ZXQlMjB0cmVhdGluZyUyMGRvZ3xlbnwwfHx8fDE3NzA1Nzk3Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vet treating"
+    },
+    {
+      "id": "ngo_030",
+      "description": "A lush green forest with sunlight filtering through.",
+      "imageUrl": "https://images.unsplash.com/photo-1448375240586-882707db888b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmb3Jlc3QlMjBzdW5saWdodHxlbnwwfHx8fDE3NzA1Nzk4MzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "forest sunlight"
+    },
+    {
+      "id": "ngo_031",
+      "description": "A dry, arid landscape in need of water.",
+      "imageUrl": "https://images.unsplash.com/photo-1543364195-bfe6e4932397?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkcnklMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzcwNTc5ODY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dry landscape"
+    },
+    {
+      "id": "ngo_032",
+      "description": "A rural Indian woman engaged in craftwork.",
+      "imageUrl": "https://images.unsplash.com/photo-1547427891-b5931a7d6d53?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxydXJhbCUyMGluZGlhbiUyMHdvbWFuJTIwd29ya2luZ3xlbnwwfHx8fDE3NzA1Nzk5MDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rural woman"
+    },
+    {
+      "id": "ngo_033",
+      "description": "A confident woman driving a car in a city.",
+      "imageUrl": "https://images.unsplash.com/photo-1555215695-3004980ad54e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21hbiUyMGRyaXZpbmclMjBjYXJ8ZW58MHx8fHwxNzcwNTc5OTQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman driving"
+    },
+    {
+      "id": "ngo_034",
+      "description": "A group of rural women learning business skills.",
+      "imageUrl": "https://images.unsplash.com/photo-1628191079331-3bac48128f73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxydXJhbCUyMHdvbWVuJTIwYnVzaW5lc3N8ZW58MHx8fHwxNzcwNTc5OTgyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rural business"
+    },
+    {
+      "id": "ngo_035",
+      "description": "A volunteer helping an elderly person walk.",
+      "imageUrl": "https://images.unsplash.com/photo-1589487391733-63372842409a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx2b2x1bnRlZXIlMjBoZWxwaW5nJTIwZWxkZXJseXxlbnwwfHx8fDE3NzA1ODAwMjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "helping elderly"
+    },
+    {
+      "id": "ngo_036",
+      "description": "Young volunteers painting a school wall.",
+      "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx5b3V0aCUyMHZvbHVudGVlcnN8ZW58MHx8fHwxNzcwNTgwMDYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "youth volunteers"
+    },
+    {
+      "id": "ngo_037",
+      "description": "A mentor guiding a young student.",
+      "imageUrl": "https://images.unsplash.com/photo-1549488344-cbb6c34cf08b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtZW50b3IlMjBndWlkaW5nJTIwc3R1ZGVudHxlbnwwfHx8fDE3NzA1ODAxMDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mentor guiding"
+    },
+    {
+      "id": "ngo_038",
+      "description": "A diverse group of young professionals in a classroom.",
+      "imageUrl": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx5b3VuZyUyMHByb2Zlc3Npb25hbHMlMjBsZWFybmluZ3xlbnwwfHx8fDE3NzA1ODAxNDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "young professionals"
+    },
+    {
+      "id": "ngo_039",
+      "description": "A team of doctors in a disaster relief camp.",
+      "imageUrl": "https://images.unsplash.com/photo-1631217871296-242e2b963133?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtZWRpY2FsJTIwcmVsaWVmJTIwY2FtcHxlbnwwfHx8fDE3NzA1ODAxNzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "medical relief"
+    },
+    {
+      "id": "ngo_040",
+      "description": "A healthcare worker attending to a patient with a skin condition.",
+      "imageUrl": "https://images.unsplash.com/photo-1551076805-e1869033e561?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGhjYXJlJTIwcGF0aWVudCUyMGV4YW18ZW58MHx8fHwxNzcwNTgwMjE3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "patient care"
+    },
+    {
+      "id": "ngo_041",
+      "description": "A cancer survivor sharing their story with a support group.",
+      "imageUrl": "https://images.unsplash.com/photo-1576091160550-2173dba9996a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYW5jZXIlMjBzdXBwb3J0JTIwZ3JvdXB8ZW58MHx8fHwxNzcwNTgwMjU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "support group"
+    },
+    {
+      "id": "ngo_042",
+      "description": "Hands cupping clean, clear water.",
+      "imageUrl": "https://images.unsplash.com/photo-1596541295412-a8c911da2148?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjZWFuJTIwd2F0ZXIlMjBoYW5kc3xlbnwwfHx8fDE3NzA1ODAyOTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clean water"
+    },
+    {
+      "id": "ngo_043",
+      "description": "A representation of breaking chains and freedom.",
+      "imageUrl": "https://images.unsplash.com/photo-1529243856181-273f33391163?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmcmVlZG9tJTIwY2hhaW5zfGVufDB8fHx8MTc3MDU4MDMzMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "freedom chains"
+    },
+    {
+      "id": "ngo_044",
+      "description": "A child holding a placard for their rights.",
+      "imageUrl": "https://images.unsplash.com/photo-1600811967246-3832c054cb7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlsZCUyMHJpZ2h0cyUyMHByb3Rlc3R8ZW58MHx8fHwxNzcwNTgwMzY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child rights"
+    },
+    {
+      "id": "ngo_045",
+      "description": "A group of diverse children looking happy and safe.",
+      "imageUrl": "https://images.unsplash.com/photo-1510076857177-7470076d4098?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzYWZlJTIwY2hpbGRyZW58ZW58MHx8fHwxNzcwNTgwNDA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "safe children"
+    },
+    {
+      "id": "ngo_046",
+      "description": "A volunteer feeding a stray puppy.",
+      "imageUrl": "https://images.unsplash.com/photo-1597626133663-53df92337915?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdHJheSUyMHB1cHB5JTIwZmVlZGluZ3xlbnwwfHx8fDE3NzA1ODA0NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "stray puppy"
+    },
+    {
+      "id": "ngo_047",
+      "description": "A thriving forest ecosystem.",
+      "imageUrl": "https://images.unsplash.com/photo-1476231682828-37e571bc172f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlY29sb2dpY2FsJTIwY29uc2VydmF0aW9ufGVufDB8fHx8MTc3MDU4MDQ4N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ecological conservation"
+    },
+    {
+      "id": "ngo_048",
+      "description": "A child freed from labor, now holding books.",
+      "imageUrl": "https://images.unsplash.com/photo-1532012197267-da84d127e765?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlbmQlMjBjaGlsZCUyMGxhYm9yfGVufDB8fHx8MTc3MDU4MDUzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "end child"
+    },
+    {
+      "id": "ngo_049",
+      "description": "Children in an informal school setting in an urban slum.",
+      "imageUrl": "https://images.unsplash.com/photo-1620121684840-edffcfc4b7be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzbHVtJTIwc2Nob29sJTIwaW5kaWF8ZW58MHx8fHwxNzcwNTgwNTcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "slum school"
+    },
+    {
+      "id": "ngo_050",
+      "description": "Rural women learning to assemble solar panels.",
+      "imageUrl": "https://images.unsplash.com/photo-1617454236402-e23a0778fe8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxydXJhbCUyMHdvbWVuJTIwdGVjaG5vbG9neXxlbnwwfHx8fDE3NzA1ODA2MTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rural technology"
+    }
+  ]
+}
