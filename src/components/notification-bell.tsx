@@ -30,9 +30,8 @@ export default function NotificationBell() {
     const fetchNotifications = async () => {
       try {
         setIsLoading(true);
-        // For now, return empty array since we don't have notifications API
-        // In future: const response = await apiClient.getNotifications(user.id);
-        setNotifications([]);
+        const response = await apiClient.getNotifications(user.id);
+        setNotifications(response.notifications || []);
       } catch (error) {
         console.error('Failed to fetch notifications:', error);
       } finally {
@@ -59,8 +58,7 @@ export default function NotificationBell() {
 
   const markAsRead = async (id: string) => {
     try {
-      // For now, just update local state since we don't have notifications API
-      // In future: await apiClient.markNotificationAsRead(id);
+      await apiClient.markNotificationAsRead(id);
       setNotifications(prev => 
         prev.map(n => n.id === id ? { ...n, read: true } : n)
       );
@@ -129,7 +127,7 @@ export default function NotificationBell() {
                   {!notif.read && <div className="h-2 w-2 rounded-full bg-primary shrink-0 mt-1" />}
                 </div>
                 <span className="text-[10px] text-muted-foreground">
-                  {notif.createdAt?.toDate ? formatDistanceToNow(notif.createdAt.toDate(), { addSuffix: true }) : 'Just now'}
+                  {notif.createdAt ? formatDistanceToNow(new Date(notif.createdAt), { addSuffix: true }) : 'Just now'}
                 </span>
               </DropdownMenuItem>
             ))

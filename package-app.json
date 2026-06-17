@@ -1,0 +1,21 @@
+{
+  "name": "giveway",
+  "description": "NGO Discovery & Donation Platform",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "start": "next start",
+    "build": "next build",
+    "dev": "next dev -p ${PORT:-3000}",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "ngo",
+    "donations",
+    "volunteering",
+    "nonprofit"
+  ],
+  "repository": "https://github.com/Priyanka-2725/GiveWay"
+}

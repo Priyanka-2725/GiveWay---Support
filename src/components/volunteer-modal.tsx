@@ -63,8 +63,7 @@ export default function VolunteerModal({ ngo, hasAlreadyRequested: initialReques
     
     setIsSubmitting(true);
     try {
-      // For now, just show success message since we don't have volunteer API
-      // In future: await apiClient.createVolunteerRequest(ngo.id, data);
+      await apiClient.createVolunteerRequest(ngo.id, data);
       
       toast({
         title: 'Request Sent!',

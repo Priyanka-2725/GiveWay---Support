@@ -21,7 +21,7 @@ import FeedCard from "@/components/feed/FeedCard"
 import FeedFilter from "@/components/feed/FeedFilter"
 import FeedTabs from "@/components/feed/FeedTabs"
 import EmptyFeed from "@/components/feed/EmptyFeed"
-import { ngos } from "@/lib/data"
+import { ngos } from "@/data/ngos"
 import {
   feedData,
   feedTabs,

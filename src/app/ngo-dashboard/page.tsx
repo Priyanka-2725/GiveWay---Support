@@ -15,6 +15,7 @@ import ManageNgoPosts from '@/components/manage-ngo-posts';
 import ManageNgoMembers from '@/components/manage-ngo-members';
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
+import { Button } from '@/components/ui/button';
 
 export default function NgoDashboardPage() {
   const { user, isLoading: isUserLoading } = useAuth();
@@ -36,17 +37,19 @@ export default function NgoDashboardPage() {
     const fetchNgo = async () => {
       setIsNgoLoading(true);
       try {
-        const res = await apiClient.getNgos({ limit: 1 });
+        const res = await apiClient.getNgos({ limit: 10 });
         // Find NGO where user is a member
         const myNgo = res.ngos.find((n: any) =>
           n.members && (n.members[user.id] === 'owner' || n.members[user.id] === 'manager')
         );
         if (myNgo) {
           setUserNgo(myNgo);
-          const [donRes] = await Promise.all([
+          const [donRes, volRes] = await Promise.all([
             apiClient.getDonations({ ngoId: myNgo.id }),
+            apiClient.getVolunteerRequests({ ngoId: myNgo.id }),
           ]);
           setDonations(donRes.donations || []);
+          setVolunteers(volRes.volunteerRequests || []);
         }
       } catch (err) {
         console.error('Failed to load NGO data:', err);
@@ -57,6 +60,17 @@ export default function NgoDashboardPage() {
 
     fetchNgo();
   }, [user?.id]);
+
+  const handleStatusChange = async (reqId: string, status: 'accepted' | 'rejected') => {
+    try {
+      const res = await apiClient.updateVolunteerRequestStatus(reqId, status);
+      setVolunteers(prev =>
+        prev.map(v => v.id === reqId ? res.volunteerRequest : v)
+      );
+    } catch (err) {
+      console.error('Failed to update volunteer request status:', err);
+    }
+  };
 
   if (isUserLoading || isNgoLoading) {
     return (
@@ -197,7 +211,24 @@ export default function NgoDashboardPage() {
                             {format(new Date(v.createdAt), 'MMM d, yyyy')}
                           </TableCell>
                           <TableCell>
-                            <Badge variant="outline">{v.status}</Badge>
+                            <div className="flex items-center gap-2">
+                              <Badge 
+                                variant={v.status === 'accepted' ? 'default' : v.status === 'rejected' ? 'destructive' : 'outline'}
+                                className={v.status === 'accepted' ? 'bg-emerald-50 text-emerald-700 border-emerald-200 hover:bg-emerald-50' : ''}
+                              >
+                                {v.status}
+                              </Badge>
+                              {v.status === 'pending' && (
+                                <div className="flex items-center gap-1 ml-2">
+                                  <Button size="sm" className="h-7 px-2 text-xs bg-emerald-600 hover:bg-emerald-700 text-white" onClick={() => handleStatusChange(v.id, 'accepted')}>
+                                    Accept
+                                  </Button>
+                                  <Button size="sm" variant="outline" className="h-7 px-2 text-xs border-rose-200 text-rose-600 hover:text-rose-700 hover:bg-rose-50" onClick={() => handleStatusChange(v.id, 'rejected')}>
+                                    Reject
+                                  </Button>
+                                </div>
+                              )}
+                            </div>
                           </TableCell>
                         </TableRow>
                       ))}

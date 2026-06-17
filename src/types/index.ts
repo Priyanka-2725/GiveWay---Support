@@ -2,7 +2,7 @@
 export type NGO = {
   id: string;
   ownerId: string; // Kept for legacy/simple lookup, but primary logic uses members
-  members: Record<string, 'owner' | 'manager'>;
+  members?: Record<string, 'owner' | 'manager'>;
   name: string;
   shortDescription: string;
   description: string;

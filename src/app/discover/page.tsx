@@ -90,7 +90,6 @@ export default function DiscoverPage() {
           onFiltersChange={setFilters}
           availableCauses={[...new Set(ngos.map((ngo) => ngo.cause))].filter(Boolean)}
           availableStates={[...new Set(ngos.map((ngo) => ngo.state))].filter(Boolean)}
-          topCause={null}
         />
       </section>
 

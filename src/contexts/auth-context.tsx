@@ -12,6 +12,7 @@ interface User {
   recentSearchTerms?: string[]
   photoURL?: string
   displayName?: string
+  emailVerified?: boolean
 }
 
 interface AuthContextType {
